@@ -2,6 +2,9 @@
   "name": "bun-postinstall-bug",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "postinstall": "echo \"hello\""
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
